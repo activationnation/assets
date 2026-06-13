@@ -27,6 +27,11 @@ version-controlled files so they can be installed into any Claude surface.
 | `marketing-ideas` | 139-idea library for ideation when stuck. | coreyhaines31/marketingskills (MIT) |
 | `competitor-profiling` | Structured competitor dossiers from URLs. | coreyhaines31/marketingskills (MIT) |
 
+### Client servicing
+| Skill | What it does | Source |
+|---|---|---|
+| `contact-report` | Turns a meeting transcript/recording into a client-ready agency contact report (attendees, decisions, action items w/ owners + deadlines) and drafts a Gmail recap to attendees. | Activation Nation |
+
 ### Supporting agent
 - `agents/creative-director.md` — provocateur creative-director persona used by `creative-direction`.
 
