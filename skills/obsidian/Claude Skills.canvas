@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {"id":"title","type":"text","text":"# 🧠 Claude Skills\nInstalled inventory · updated 2026-06-13","x":-40,"y":-200,"width":520,"height":90,"color":"6"},
+
+    {"id":"h-creative","type":"text","text":"## 🎨 Creative & concept","x":-40,"y":0,"width":260,"height":50,"color":"1"},
+    {"id":"s-creative-direction","type":"text","text":"**creative-direction**\nNaming, branding, concept dev (DIVERGE→CONNECT→CONVERGE→CHALLENGE)","x":-40,"y":70,"width":260,"height":100},
+    {"id":"s-frontend-design","type":"text","text":"**frontend-design**\nDistinctive, production-grade UI / landing pages","x":-40,"y":190,"width":260,"height":90},
+    {"id":"s-scroll-world","type":"text","text":"🆕 **scroll-world**\nScroll-scrubbed 3D fly-through landing pages (Higgsfield). ⚠️ uses credits","x":-40,"y":300,"width":260,"height":110,"color":"4"},
+
+    {"id":"h-brand","type":"text","text":"## 🎯 Brand & visuals","x":260,"y":0,"width":260,"height":50,"color":"2"},
+    {"id":"s-brand-guidelines","type":"text","text":"**brand-guidelines**\nApply color + type system to any artifact","x":260,"y":70,"width":260,"height":90},
+    {"id":"s-canvas-design","type":"text","text":"**canvas-design**\nPoster / social / static marketing graphics","x":260,"y":180,"width":260,"height":90},
+
+    {"id":"h-planning","type":"text","text":"## 📊 Planning, research & content","x":560,"y":0,"width":280,"height":50,"color":"3"},
+    {"id":"s-marketing-plan","type":"text","text":"**marketing-plan**\nfCMO 12-month AARRR plan","x":560,"y":70,"width":280,"height":80},
+    {"id":"s-customer-research","type":"text","text":"**customer-research**\nICP / VOC / personas / JTBD / review mining","x":560,"y":170,"width":280,"height":90},
+    {"id":"s-content-strategy","type":"text","text":"**content-strategy**\nPillars, topic clusters, editorial calendar","x":560,"y":280,"width":280,"height":90},
+    {"id":"s-marketing-ideas","type":"text","text":"**marketing-ideas**\n139-idea ideation library","x":560,"y":390,"width":280,"height":80},
+    {"id":"s-competitor-profiling","type":"text","text":"**competitor-profiling**\nStructured competitor dossiers from URLs","x":560,"y":490,"width":280,"height":90},
+
+    {"id":"h-client","type":"text","text":"## 🤝 Client servicing","x":880,"y":0,"width":260,"height":50,"color":"5"},
+    {"id":"s-contact-report","type":"text","text":"**contact-report**\nMeeting transcript → agency contact report + Gmail draft","x":880,"y":70,"width":260,"height":100},
+
+    {"id":"h-agent","type":"text","text":"## 🧩 Supporting agent","x":880,"y":210,"width":260,"height":50,"color":"6"},
+    {"id":"s-creative-director","type":"text","text":"**creative-director**\nProvocateur agent behind creative-direction","x":880,"y":280,"width":260,"height":90}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"h-creative","fromSide":"bottom","toNode":"s-creative-direction","toSide":"top"},
+    {"id":"e2","fromNode":"s-creative-direction","fromSide":"bottom","toNode":"s-frontend-design","toSide":"top"},
+    {"id":"e3","fromNode":"s-frontend-design","fromSide":"bottom","toNode":"s-scroll-world","toSide":"top"},
+    {"id":"e4","fromNode":"h-brand","fromSide":"bottom","toNode":"s-brand-guidelines","toSide":"top"},
+    {"id":"e5","fromNode":"s-brand-guidelines","fromSide":"bottom","toNode":"s-canvas-design","toSide":"top"},
+    {"id":"e6","fromNode":"h-planning","fromSide":"bottom","toNode":"s-marketing-plan","toSide":"top"},
+    {"id":"e7","fromNode":"h-client","fromSide":"bottom","toNode":"s-contact-report","toSide":"top"},
+    {"id":"e8","fromNode":"s-creative-direction","fromSide":"right","toNode":"s-creative-director","toSide":"left"}
+  ]
+}
