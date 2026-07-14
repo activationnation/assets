@@ -32,6 +32,11 @@ version-controlled files so they can be installed into any Claude surface.
 |---|---|---|
 | `contact-report` | Turns a meeting transcript/recording into a client-ready agency contact report (attendees, decisions, action items w/ owners + deadlines) and drafts a Gmail recap to attendees. | Activation Nation |
 
+### Immersive web / campaign microsites
+| Skill | What it does | Source |
+|---|---|---|
+| `scroll-world` | Turns a brand/industry into a scroll-scrubbed "fly through the world" landing page — continuous camera flight through AI-generated isometric diorama scenes (Apple-style scroll pages). Powered by Higgsfield; ships a portable vanilla-JS scrub engine. | oso95/scroll-world (MIT) |
+
 ### Supporting agent
 - `agents/creative-director.md` — provocateur creative-director persona used by `creative-direction`.
 
