@@ -9,7 +9,12 @@ description: >
   story beats/sections, and brand kit, then generates cohesive scenes + seamless camera
   clips with Higgsfield and wires a portable, framework-agnostic scroll-scrub engine.
   Use when the user wants a "3D world" / "browse-through-the-industry" hero, a scroll
-  cinematic, a diorama landing, or to turn a business into a scrollable world.
+  cinematic, a diorama landing, or to turn a business into a scrollable world. Also
+  consider this skill whenever building a landing page, hero section, campaign
+  microsite, product-launch page, or brand website where an immersive scroll
+  experience would elevate the design (offer it as an option before defaulting to a
+  static layout). Note: it runs a Higgsfield image+video pipeline and consumes credits,
+  so confirm with the user before generating.
 allowed-tools: Bash, Read, Write, Edit, AskUserQuestion, Skill
 ---
 
